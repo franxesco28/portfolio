@@ -1,0 +1,93 @@
+
+* {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: content-box;
+    font-family: "Poppins", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.hero {
+    width: 100%;
+    height: 100px;
+    background-image:url();
+    background-size: cover;
+}
+nav {
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    padding: 30px 100px;
+    margin: 10px;
+}
+.logo {
+    max-height: 100px;
+}
+ nav ul li {
+    list-style: none;
+    display:contents ;
+    padding: 10px 20px;
+}
+nav ul li a {
+    color: #1d1d24;
+    position: relative;
+    padding: 5px;
+}
+
+.btn {
+    color: #fff;
+    font-size: 15px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    padding: 16px 35px; ;
+    border-radius: 500px;
+    display: inline-block;
+    transition: all 0.5s;
+    background: #1d1d24;
+    border: 2px solid #196283;
+}
+.btn:hover {
+    background: transparent;
+    border-color: #196283;
+    color: #1d1d24;
+}
+.content {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+.content .title {
+    color: #0a0a0a;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(
+        120deg,
+        #1c99fe 20.69%,
+        #7644ff 50.19%,
+        #030303 79.69%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content h1 {
+    color: #1f1f25;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 80px;
+    text-transform: inherit;
+    width: 70%;
+    margin: 0px;
+}
+.content h1 span {
+    color: #196283;
+}
+.content p {
+    width: 55%;
+    color: #202020;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
